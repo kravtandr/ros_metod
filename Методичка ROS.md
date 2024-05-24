@@ -51,7 +51,7 @@ source ~/.bashrc
 sudo apt-get install python3-rosdep
 ```
 <!-- ![[Pasted_image_20230228162915.png]] -->
-![Image alt](Pasted_image_20230228162915.png)
+![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/Pasted_image_20230228162915.png)
   Установим пакет rosdep, который позволяет вам легко устанавливать системные зависимости для компилируемого исходного кода и необходим для запуска некоторых основных компонентов в ROS:	
 ```bash
 rosdep update
