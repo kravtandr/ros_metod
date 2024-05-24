@@ -40,8 +40,8 @@ sudo apt install curl
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
   
-<!-- ![[Pasted image 20230228162208.png]] -->
-![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/Pasted image 20230228162208.png)
+<!-- ![[Pasted_image_20230228162208.png]] -->
+![Image alt](https://github.com/kravtandr/ros_metod/raw/master/images/Pasted_image_20230228162208.png)
 ###### Устанавливаем ROS
 ```bash
 sudo apt update
@@ -50,8 +50,8 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 sudo apt-get install python3-rosdep
 ```
-<!-- ![[Pasted image 20230228162915.png]] -->
-![Image alt](Pasted image 20230228162915.png)
+<!-- ![[Pasted_image_20230228162915.png]] -->
+![Image alt](Pasted_image_20230228162915.png)
   Установим пакет rosdep, который позволяет вам легко устанавливать системные зависимости для компилируемого исходного кода и необходим для запуска некоторых основных компонентов в ROS:	
 ```bash
 rosdep update
